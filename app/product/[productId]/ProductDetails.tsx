@@ -9,6 +9,7 @@ import { Rating } from "@mui/material";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { MdCheckCircle } from "react-icons/md";
+import Cart from "@/app/cart/page";
 interface ProductDetailsProps{
     product:any
 }
