@@ -15,7 +15,7 @@ const NavBar= async()=>{
     <div 
     className="flex items-center justify-between gap-4 md:gap-0 ">
         <Link href="/" className= " font-bold text-xl md:text-2xl">PORSCHE DETAILS</Link>
-        <div className="hidden md:block">
+        <div className="">
             <SearchBar/>
         </div>
         <div className="flex items-center gap-4 md:gap-8 ">
